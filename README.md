@@ -1,1 +1,2 @@
-# CSS_y_RDW
+# CSS y Diseño Web Responsive
+Modulo 2
