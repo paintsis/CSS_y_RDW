@@ -1,0 +1,43 @@
+/*
+* CSS de efectos en imagenes
+*/
+.rotar:hover
+{
+
+  transform: rotate(10deg);
+  transition: 1s;
+
+}
+.rotar{
+  transition: all 2s;
+  transition-timing: ease-in-out;
+}
+
+.mover:hover
+{
+  transform: translate(5px,-15px);
+  transition: 1s;
+}
+
+.mover{
+  transition: all 2s;
+  transition-timing: ease-in-out;
+}
+
+/*
+* CSS Filtros de imagenes
+*/
+#galeria > figure:first-child
+{
+  filter: blur(10px);
+}
+
+#galeria > figure:nth-child(2n)
+{
+  filter: grayscale(100%);
+}
+
+#galeria > figure:nth-child(3)
+{
+  filter: sepia(90%);
+}

@@ -1,0 +1,119 @@
+@font-face {
+  font-family:'Infinite_Stroke';
+  src:url(font/Infinite_Stroke.otf) format('opentype');
+}
+
+body{
+  margin: 0 auto;
+  background-color: #02010a;
+  width: 960px;
+  font-family: 'Infinite_Stroke';
+}
+
+img{
+  box-shadow: 2px 2px #02010a;
+}
+
+header
+{
+  background-color: #5b7989;
+  margin-top: 0;
+  border-radius: 10px 10px 0px 0px;
+  height: 10%;
+  width: 100%;
+
+}
+header > h1 {
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  font-size: 2.6em;
+  padding-left: 1em;
+  display: inline;
+}
+
+.seccion2{
+  background-color: #d5c75f;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.twoCollum{
+  width: 45%;
+
+}
+
+.fourColumn
+{
+  width: 25%;
+  padding-top: 5px;
+  flex-grow: 1;
+}
+
+.threeColum
+{
+width: 30%;
+flex-grow: 1;
+}
+
+
+img.mediana{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+img.pequena{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.menu {
+  list-style-type: none;
+  display: inline;
+float: right;
+}
+.menu > li {
+  color: white;
+  display: inline;
+  padding: 8px;
+}
+a{
+    color: white;
+}
+
+
+#header2
+{
+background-color: #82c3a6;
+width: 100%;
+}
+
+#ImgCentral,figure{
+padding: 1em;
+margin: 0;
+}
+
+#ImgCentral > img{
+  display: block;
+  width: 45%;
+  margin: 0 auto;
+}
+
+footer{
+  background-color: #C6d5c5;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px){
+    body {width: 95%}
+    .menu {float: none;}
+    #ImgCentral > img { width:100%;}
+    header > h1 { font-size: 2.1em; text-align: center; display: block; padding: 5px;}
+    .twoCollum{ width: 100%;  }
+    img.mediana{ width: 100%;  }
+}
